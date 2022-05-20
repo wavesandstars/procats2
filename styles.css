@@ -1,0 +1,214 @@
+
+/* Universal Styles */
+
+html {
+    font-family: 'Macondo', cursive;
+    font-size: 18px;
+    background-color: rgb(192, 181, 181);
+    
+  }
+.main {
+  text-align: center;
+  margin-top: 6.85rem;
+ 
+}
+h1{
+  font-size: 3rem;
+  color:rgb(185, 80, 98);
+}
+ h2 {
+   font-size: 2rem;
+    margin:1rem;
+ }
+
+/* Header */
+.headerbox{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+header {
+    position: fixed;
+    top:0;
+    z-index: 1;
+    width: 99%;
+    border-bottom:solid 2px black;
+    height:auto;
+    background-color: rgb(90, 94, 94);
+    padding: 0.125rem;  
+    margin: 0.125rem;
+
+  
+  }
+
+header .content {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    
+     
+}
+
+.navbar li{
+   display: inline-block;
+   padding-left: 4rem;
+   padding-right:4rem;
+
+}
+.navbar a {
+  color: white;
+  
+}
+
+.logo img{
+    height: 6rem;
+    length:6rem;
+    display: inline-block;
+    
+    
+}
+
+@media only screen and (max-width: 895px) {
+  .logo img {
+      display:none;
+ 
+  }
+  header .content{
+      display:flex;
+      align-items: center;
+      justify-content: center;
+     
+  }
+  .navbar li {
+  padding-left: 1rem;
+  padding-right:1rem;
+  }
+}
+
+/*About*/
+
+.about {
+  display: flex;
+  align-items: center;
+  background-image: url(https://images.unsplash.com/photo-1589803196988-17b417281773?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+  height:500px;
+  width:100%;
+  
+
+}
+.acontent {
+  background-color: rgba(231, 176, 176, 0.7);
+  padding: .5rem;
+  width:100%;
+  
+
+  }
+/*Mission*/
+.mission {
+  background-color: rgba(230, 231, 176, 0.521);
+  width:90%;
+  display:inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: solid black;
+  border-top: solid black; 
+  border-radius: 45%;
+  margin-top: 2rem;
+
+
+}
+.mcontent {
+  margin: .5rem;
+
+}
+span.train {
+  text-decoration: underline;
+  text-decoration-style: double;
+  font-size:1.25rem;
+}
+span.percent {
+  color:red;
+  font-size:1.25rem;
+}
+
+
+/*Team*/
+.team h2{
+  text-decoration: underline;
+  margin-top:5rem;
+  margin-bottom: 3rem;
+}
+.tcontent {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-evenly;
+}
+
+ .team img {
+   height: 400px;
+   width: auto;
+   margin: 20px;
+ }
+ 
+ .teammate p{
+  border-bottom: solid 2px blue;
+ }
+
+/*ProCative*/
+
+.focus img {
+  height: 300px;
+   width: auto;
+   margin: 15px;
+   border:solid .5rem black;
+  
+  
+}
+.focuscontainer {
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-around;
+  align-items: center;
+  
+
+}
+.procative h2 {
+  text-decoration: underline;
+  margin-top: 5rem;
+}
+.pcontent {
+  background-color: rgb(188, 159, 216);
+  width: 50%;
+  display:inline-block;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+
+/*Contact*/
+
+.contact {
+  background-color: rgba(96, 101, 102, 0.185);
+  width: 50%;
+  display:inline-block;
+  justify-content: center;
+  align-items: center;
+  margin-top:4rem;
+
+}
+.contact h4 {
+  text-decoration: underline;
+  margin: .25rem;
+}
+.contact p {
+  width: 65%;
+  display:inline-block;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
